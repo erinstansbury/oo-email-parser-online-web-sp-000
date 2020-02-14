@@ -10,5 +10,6 @@ class EmailAddressParser
   def parse
     @email_addresses.each do |addy|
       addy.split(" " || ",")
+    end
   end
 end
