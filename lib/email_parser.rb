@@ -7,7 +7,8 @@ class EmailAddressParser
     @@all << self
   end
 
-  def parser
-
+  def parse
+    @email_addresses.each do |addy|
+      addy.split(" " || ",")
   end
 end
